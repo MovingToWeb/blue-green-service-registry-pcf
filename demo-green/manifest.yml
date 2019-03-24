@@ -1,0 +1,7 @@
+applications:
+- name: demo-green-techprimers
+  instances: 1
+  memory: 700m
+  path: target/demo-green-0.0.1-SNAPSHOT.jar
+  services:
+  - service-registry

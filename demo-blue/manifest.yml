@@ -1,0 +1,7 @@
+applications:
+- name: demo-app-techprimers
+  instances: 1
+  memory: 680m
+  path: target/demo-blue-0.0.1-SNAPSHOT.jar
+  services:
+  - service-registry
